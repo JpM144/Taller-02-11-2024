@@ -1,0 +1,71 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  width: 90%;
+  max-width: 1400px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.ayuda {
+    background-color: #f0f4ff;
+    color: #18212b;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 0.9rem;
+
+  }
+
+  .btn-notificaciones {
+    background-color: #13171c;
+    color: #ffffff;
+    border: none;
+    padding: 10px 15px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .btn-notificaciones .icono {
+    font-size: 1.2rem;
+  }
+
+  .input-cupon {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-right: 10px;
+    width: 200px;
+  }
+
+  .seccion-productos {
+    text-align: center;
+    padding: 20px;
+  }
+  .seccion-productos h2 {
+    color: #333;
+  }
+  .producto {
+    display: inline-block;
+    width: 200px;
+    margin: 20px;
+    text-align: left;
+  }
+  .producto img {
+    width: 100%;
+    border-radius: 5px;
+  }
+  .btn-comprar {
+    background-color: #28a745;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
